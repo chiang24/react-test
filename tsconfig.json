@@ -1,20 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @chiang24 Sign out
-3
-13 2 jrg-team/guui-react
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-guui-react/tsconfig.json
-@FrankFang FrankFang add types
-ee92999  on 19 Dec 2018
-50 lines (49 sloc)  1.08 KB
-
 {
   "compilerOptions": {
     "declaration": true,
