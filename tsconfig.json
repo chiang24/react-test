@@ -1,0 +1,53 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @chiang24 Sign out
+3
+13 2 jrg-team/guui-react
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+guui-react/tsconfig.json
+@FrankFang FrankFang add types
+ee92999  on 19 Dec 2018
+50 lines (49 sloc)  1.08 KB
+
+{
+  "compilerOptions": {
+    "declaration": true,
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // https://github.com/Microsoft/TypeScript/issues/28762#issuecomment-443406607
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true
+  },
+  "include": [
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "*.js"
+  ]
+}
